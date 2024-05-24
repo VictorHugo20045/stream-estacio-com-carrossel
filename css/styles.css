@@ -1,0 +1,178 @@
+/* Define estilos básicos para o corpo do site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Cor de fundo do corpo que é o Body */
+}
+
+/* Define estilos para o contêiner principal tipo: largura e centralização no caso que fiz. */
+.container {
+    width: 80%; /* Largura do contêiner principal */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+/* Estilos para o cabeçalho que fiz */
+header {
+    background-color: #222; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px 0; /* Espaçamento interno do cabeçalho */
+}
+
+/* Estilos para o título principal do cabeçalho */
+header h1 {
+    margin: 0; /* Remove margem do título */
+    font-size: 28px; /* Tamanho da fonte do título */
+}
+
+/* Estilos para a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+}
+
+/* Estilos para os itens da lista de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens na mesma linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilos para os links da lista de navegação */
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 18px; /* Tamanho da fonte dos links */
+}
+
+/* Estilos para a seção principal */
+main {
+    padding: 20px 0; /* Espaçamento interno da seção principal */
+}
+
+/* Estilos para a seção de destaque */
+.destaque {
+    text-align: center; /* Alinhamento do conteúdo ao centro */
+    margin-bottom: 30px; /* Espaçamento inferior da seção */
+    background-image: url('cinema.jpg'); /* Imagem de fundo da seção */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 150px 0; /* Espaçamento interno */
+}
+
+/* Estilos para o título da seção de destaque */
+.destaque h2 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+/* Estilos para os parágrafos da seção de destaque */
+.destaque p {
+    font-size: 20px; /* Tamanho da fonte dos parágrafos */
+    margin-bottom: 10px; /* Espaçamento inferior dos parágrafos */
+}
+
+/* Estilos para a parte destacada do preço da pipoca */
+.destaque p span {
+    font-weight: bold; /* Texto em negrito */
+    color: #ffc107; /* Cor amarela para o preço */
+    display: inline-block; /* Exibe em linha */
+    margin-left: 10px; /* Espaçamento à esquerda */
+}
+
+/* Estilos para o botão do meio*/
+.btn {
+    display: inline-block; /* Exibe como bloco */
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    background-color: #f44336; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none; /* Remove sublinhado do texto */
+    font-size: 18px; /* Tamanho da fonte do botão */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+/* Estilos para o efeito hover do botão, que seria ao passar o mouse */
+.btn:hover {
+    background-color: #d32f2f; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para a seção de filmes em destaque */
+.filmes-em-destaque {
+    background-color: #fff; /* Cor de fundo da seção */
+    padding: 40px 0; /* Espaçamento interno da seção */
+}
+
+/* Estilos para o título da seção de filmes em destaque */
+.filmes-em-destaque h2 {
+    font-size: 30px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior do título */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #222; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+}
+
+/* Estilos para o texto do rodapé */
+footer p {
+    font-size: 16px; /* Tamanho da fonte do texto */
+}
+
+/* Adiciona estilos para os cards dos filmes */
+.filme-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex; /* Utiliza flexbox para organizar os itens dentro do card */
+}
+
+/* Estilos para a imagem dentro do card */
+.filme-card img {
+    width: 150px; /* Largura fixa para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para o conteúdo (texto) dentro do card */
+.filme-info {
+    flex: 1; /* Faz com que o texto ocupe todo o espaço disponível */
+    padding: 20px;
+}
+
+/* Estilos para o título do filme dentro do card */
+.filme-titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a descrição do filme dentro do card */
+.filme-descricao {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para o preço do filme dentro do card */
+.filme-preco {
+    font-size: 18px;
+    color: #f44336;
+    font-weight: bold;
+}
+
+.carrossel {
+    background-color: #fff; /* Cor de fundo da seção */
+    padding: 40px 0; /* Espaçamento interno da seção */
+}
+
+.project-img {
+    align-content: center;
+}
+
+.carrossel h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
